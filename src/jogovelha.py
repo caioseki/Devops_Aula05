@@ -1,16 +1,15 @@
-def inicializar():
-    tab = []
-    for i in range(3):
-        linha = []
-        for j in range(3):
-            linha.append(".")
-        tab.append(".") 
-    return tab
+ def inicializar():
+	tab = [ ]
+	for i in range(3):
+		linha = [ ]
+		for j in range(3):
+			linha.append(".")
+		tab.append(linha)
+	return tab
 
-def main():
-    jogo = inicializar()
-    print(jogo)
+def main( ):
+	jogo = inicializar( )
+	print (jogo)
 
 if __name__ == "_main_":
-    main()
-                
+	main()
